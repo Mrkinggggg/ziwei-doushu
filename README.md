@@ -168,9 +168,8 @@ cd ziwei-doushu
 # 安装依赖
 npm install
 
-# 配置环境变量
+# 配置环境变量（只看排盘可以跳过；AI 配置仅在你自己实现了 /api/* 接口时才用得上）
 cp .env.example .env.local
-# 编辑 .env.local，填入你的 AI API Key
 
 # 启动开发服务器
 npm run dev
@@ -185,7 +184,7 @@ npm test            # 排盘引擎回归（768 盘 × 紫微铁律、夏令时�
 
 每次 push 与 PR 都会在 GitHub Actions 上跑同一套（见 [`.github/workflows/ci.yml`](./.github/workflows/ci.yml)）。
 
-> 注意：开源版不含后端 API 路由，AI 解读功能需要你自行实现 `/api/interpret` 等接口。排盘引擎与 Demo 界面可独立运行。
+> **注意：开源版不含后端 API 路由。**排盘、命盘展示、合盘起盘都在浏览器里用本仓库的引擎完成，**不需要任何 API Key**。AI 解读（`/api/interpret`）和合盘 AI 分析（`/api/heming`）需要你自己实现接口；没实现之前，这两处会直接提示「开源版不含该接口」，配置 API Key 也不会变成可用（#30 就是这个原因）。
 
 ---
 
