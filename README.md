@@ -6,15 +6,13 @@
 [![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](./LICENSE)
 [![Dataset: CC BY 4.0](https://img.shields.io/badge/dataset-CC%20BY%204.0-green.svg)](./DATASET-LICENSE)
 
+**中文** · [English](./README.en.md)
+
 </div>
 
 基于<strong>倪海厦《天纪》</strong>教学体系的紫微斗数排盘系统，包含完整排盘算法、四化系统、格局知识库、古籍原文数据，以及 **51.8 万条命盘样本数据**。
 
-> 🎉 **网站已完成 ICP 备案**（渝ICP备2026013379号-1），主域名已正式上线、全部功能正常访问。
->
-> 直接访问主域名 **https://metisziwei.com** 即可，排盘 / AI 解读 / 命盘历史等全部功能均已开放。
->
-> 💕 **发财的小手点一下，小红书 / 抖音 / 闲鱼 / X 关注：王多鱼AI**，第一时间看上线 + 解锁更多紫微干货～
+在线体验：[metisziwei.com](https://metisziwei.com)，排盘、AI 解读、命盘历史全部开放。
 
 ---
 
@@ -36,6 +34,8 @@
 ---
 
 ## 一、本轮更新（2026-09-21）
+
+> **2026-10-03 补充**：倪师《天纪·紫微斗数》原话 1848 条单独成章（第五章）；合并外部贡献 #29（时辰序号校验）；引擎拒绝不存在的公历日期，数据集补字段口径与已知问题；提交 package-lock.json；站点地址改为可配置；合盘演示改用本地引擎起盘、AI 接口缺失时明确提示；补齐贡献指南、行为准则、问题与 PR 模板；新增英文简介 [README.en.md](./README.en.md)。
 
 ![本轮更新总览](./docs/update-20260921.png)
 
@@ -323,6 +323,6 @@ npm test            # 排盘引擎回归（768 盘 × 紫微铁律、夏令时�
 
 ### 联系
 
-- 线上平台：[metisziwei.com](https://metisziwei.com)
-- Issues：欢迎提 Bug 和建议
-- 小红书 / 抖音 / 闲鱼 / X：**王多鱼AI**
+- 线上平台：[metisziwei.com](https://metisziwei.com)（已完成 ICP 备案：渝ICP备2026013379号-1）
+- 提问题、提修复：见 [CONTRIBUTING.md](./CONTRIBUTING.md)；使用交流请到 [讨论区](https://github.com/Renhuai123/ziwei-doushu/discussions)
+- 💕 发财的小手点一下：小红书 / 抖音 / 闲鱼 / X 关注 **王多鱼AI**，第一时间看上线 + 解锁更多紫微干货～
