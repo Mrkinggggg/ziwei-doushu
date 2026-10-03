@@ -35,7 +35,7 @@
 
 ## 一、本轮更新（2026-09-21）
 
-> **2026-10-03 补充**：倪师《天纪·紫微斗数》原话 1848 条单独成章（第五章）；合并外部贡献 #29（时辰序号校验）；引擎拒绝不存在的公历日期，数据集补字段口径与已知问题；提交 package-lock.json；站点地址改为可配置；合盘演示改用本地引擎起盘、AI 接口缺失时明确提示；补齐贡献指南、行为准则、问题与 PR 模板；新增英文简介 [README.en.md](./README.en.md)；去掉两个用不上的部署工具包（vercel CLI、@cloudflare/next-on-pages），依赖从 483 个减到 185 个，安全提醒从 50 条降到 7 条。
+> **2026-10-03 补充**：倪师《天纪·紫微斗数》原话 1848 条单独成章（第五章）；合并外部贡献 #29（时辰序号校验）；引擎拒绝不存在的公历日期，数据集补字段口径与已知问题；提交 package-lock.json；站点地址改为可配置；合盘演示改用本地引擎起盘、AI 接口缺失时明确提示；补齐贡献指南、行为准则、问题与 PR 模板；新增英文简介 [README.en.md](./README.en.md)；去掉两个用不上的部署工具包（vercel CLI、@cloudflare/next-on-pages），依赖从 483 个减到 185 个；随后升级到 Next.js 16 修掉 postcss 漏洞，GitHub 安全提醒从 51 条清零。
 
 ![本轮更新总览](./docs/update-20260921.png)
 
@@ -315,7 +315,7 @@ npm test            # 排盘引擎回归（768 盘 × 紫微铁律、夏令时�
 
 ### 技术栈
 
-- **框架**：Next.js 15（App Router）
+- **框架**：Next.js 16（App Router）
 - **语言**：TypeScript
 - **样式**：Tailwind CSS + CSS Variables 设计系统
 - **排盘**：基于 [iztro](https://github.com/SylarLong/iztro) + lunar-javascript
