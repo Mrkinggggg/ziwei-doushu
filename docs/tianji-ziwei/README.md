@@ -2,7 +2,7 @@
 
 这里是倪海厦先生《天纪》课程中**紫微斗数部分**的原话，共 **1848 条**，按讲次整理。每条都带出处时间，点一下就跳回 B 站原视频的那一秒，可以自己核对。
 
-内容取自姊妹仓库 [nihai-tianji-corpus](https://github.com/Renhuai123/nihai-tianji-corpus)（天纪全量语料，提交 `24e3845`），这里只是其中紫微部分的分讲版本，**内容以语料库为准**，会随语料库同步更新。
+内容取自姊妹仓库 [nihai-tianji-corpus](https://github.com/Renhuai123/nihai-tianji-corpus)（天纪全量语料，提交 `462faa4`），这里只是其中紫微部分的分讲版本，**内容以语料库为准**，会随语料库同步更新。
 
 ![倪海厦《天纪·紫微斗数》一图看全](./overview.png)
 
